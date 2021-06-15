@@ -27,7 +27,7 @@ h1 {
 #Whoizzit {
     font-size: 30px;
     line-height: 1.2;
-    font-family: cursive;
+    font-family: 'Viaoda Libre', cursive;
     font-weight: 300;
 }
 
@@ -51,7 +51,34 @@ h2 {
     bottom: 0;
     opacity: 0.83;
     width: 100% display:table;
+    z-index:9;
 }
+
+.menu {
+    font-family: sans-serif;
+    z-index: 10;
+    position: absolute;
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.list {
+    font-family: fantasy;
+    float: left;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size:20px;
+}
+
+.list:hover {
+    background-color: dodgerblue;
+}
+
 
 
 .Div1 {
