@@ -2,6 +2,7 @@ body {
     text-align: center;
     margin: 0;
     padding-top: 800px;
+    
 }
 
 .Picture {
@@ -16,13 +17,41 @@ h1 {
     font-weight: 300;
 }
 
+.Hi{
+    color:orange;
+     font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: 300;
+}
+.Line{
+     height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
 #Heading {
     font-size: 40px;
     line-height: 1.2;
     font-family: fantasy;
     font-weight: 300;
 }
-
+#Start{
+    position: absolute;
+    height: 800px;
+    color: aliceblue;
+    overflow: hidden;
+    background: linear-gradient(#f5c842 0%, #7ef542 100%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    width: 100% display:table;
+    z-index:9;  
+}
 
 #Whoizzit {
     font-size: 30px;
@@ -38,21 +67,6 @@ h2 {
     font-weight: 300;
 }
 
-
-#Start {
-    position: absolute;
-    height: 800px;
-    color: aliceblue;
-    overflow: hidden;
-    background: linear-gradient(#f5c842 0%, #7ef542 100%);
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    opacity: 0.83;
-    width: 100% display:table;
-    z-index:9;
-}
 
 .menu {
     font-family: sans-serif;
@@ -107,3 +121,15 @@ p {
     font-size: 17px;
     line-height: 1.3;
 }
+
+a {
+  text-decoration: none;
+}
+
+.articles:hover {
+    color: orange;
+}
+.articles{
+    font-size:30;
+}
+
