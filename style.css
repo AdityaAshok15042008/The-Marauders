@@ -26,7 +26,7 @@ h1 {
 }
 .Line{
      height: 6px;
-    background-color: black;
+    background-color: orange;
     width: 70px;
     margin: 8px auto;
 }
@@ -37,6 +37,7 @@ h1 {
     line-height: 1.2;
     font-family: fantasy;
     font-weight: 300;
+    color:orange;
 }
 #Start{
     position: absolute;
@@ -106,13 +107,6 @@ h2 {
     padding: 50px;
     text-align: center;
     font-size: 42px;
-}
-
-.Bar {
-    height: 6px;
-    background-color: black;
-    width: 70px;
-    margin: 8px auto;
 }
 
 p {
